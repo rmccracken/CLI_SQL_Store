@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Command line \"store\" that allows users to select items for purchase The app will take in orders from customers and deplete stock from the store's inventory. ",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmccracken/CLI_SQL_Store.git"
+  },
+  "keywords": [
+    "inquirer",
+    "cli"
+  ],
+  "author": "Rob McCracken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmccracken/CLI_SQL_Store/issues"
+  },
+  "homepage": "https://github.com/rmccracken/CLI_SQL_Store#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^5.0.1",
+    "is-number": "^5.0.0",
+    "mysql": "^2.15.0",
+    "request": "^2.83.0"
+  }
+}
